@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Oyama's Arduino Playground</title>
+	<link rel="stylesheet" type="text/css" href="/css/semantic.min.css">
+	<link rel="stylesheet" href="/css/custom.css">
+	<script type="text/javascript" src="/js/jQuery.js"></script>
+	<script src="/js/semantic.min.js"></script>
+</head>
+
+<body>
+	<div class="ui segment">
+		<div class="ui menu">
+			<!-- <div class="header item"> -->
+				<a class="item" href="/">
+					<h5><i class="home icon"></i>Live JS Shelfie Bot</h5>
+			</a>
+			<!-- </div> -->
+			<a class="item">
+			<i class="bullseye icon"></i> LJSSB Monitor
+		</a>
+			<a class="item" href="/playground">
+			<i class="video play icon"></i>Play Ground
+		</a>
+			<a class="item">
+				<i class="sign in icon"></i>Sign In
+		</a>
+			<a class="item">
+				<i class="sign out icon"></i>Sign out
+		</a>
+		</div>
+		<div class="ui segment">
+			{{{body}}}
+		</div>
+		<script type="text/javascript" src="/js/custom.js"></script>
+		<!-- include the client socket library-->
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="/js/client.js"></script>
+</body>
