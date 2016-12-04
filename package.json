@@ -1,0 +1,30 @@
+{
+  "name": "development_startup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Oyamasiphula/free_basic_mobile_app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oyamasiphula/free_basic_mobile_app/issues"
+  },
+  "dependencies": {
+    "bower": "^1.7.0",
+    "express": "^4.14.0",
+    "express-handlebars": "^2.0.1",
+    "gulp": "^3.9.1",
+    "handlebars": "^4.0.5",
+    "http": "0.0.0",
+    "johnny-five": "^0.10.6",
+    "socket.io": "^1.7.1"
+  },
+  "devDependencies": {}
+}
