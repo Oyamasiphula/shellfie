@@ -34,7 +34,7 @@ five.Board().on('ready', function() {
   led = new five.Led.RGB({
     pins: {
       red: 6,
-      green: 3,
+      green: 9,
       blue: 5
     }
   });
