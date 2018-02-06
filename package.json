@@ -1,32 +1,36 @@
 {
-  "name": "development_startup",
+  "name": "tesselduno",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "dependencies": {
+    "bower": "^1.8.2",
+    "dotenv": "^5.0.0",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "gulp": "^3.9.1",
+    "handlebars": "^4.0.11",
+    "http": "^0.0.0",
+    "johnny-five": "^0.13.0",
+    "nodemailer": "^4.4.2",
+    "nodemon": "^1.14.12",
+    "serialport": "^6.0.4",
+    "socket.io": "^2.0.4",
+    "twilio": "^3.11.2"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Oyamasiphula/free_basic_mobile_app.git"
+    "url": "git+https://github.com/Oyamasiphula/shellfie.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Oyamasiphula/free_basic_mobile_app/issues"
+    "url": "https://github.com/Oyamasiphula/shellfie/issues"
   },
-  "dependencies": {
-    "bower": "^1.7.0",
-    "camera-vc0706": "^0.1.8",
-    "express": "^4.14.0",
-    "express-handlebars": "^2.0.1",
-    "gulp": "^3.9.1",
-    "handlebars": "^4.0.5",
-    "http": "0.0.0",
-    "johnny-five": "^0.10.6",
-    "nodemon": "^1.11.0",
-    "socket.io": "^1.7.1"
-  },
-  "devDependencies": {}
+  "homepage": "https://github.com/Oyamasiphula/shellfie#readme"
 }
