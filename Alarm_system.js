@@ -1,4 +1,7 @@
-  var five = require("johnny-five"),board,motion,
+      require('dotenv').config();
+  var five = require("johnny-five"),
+      board,
+      motion,
       nodemailer = require('nodemailer'),
       accountSid = process.env.USERACCOUNTSID,
       authToken = process.env.USERAUTHTOKEN;
