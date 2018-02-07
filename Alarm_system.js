@@ -1,5 +1,6 @@
       require('dotenv').config();
   var five = require("johnny-five"),
+      player = require('play-sound')(opts = {}),
       board,
       motion,
       nodemailer = require('nodemailer'),
@@ -58,6 +59,11 @@
     // when no movement has occurred led strobe slower in different patterns
    	 motion.on("motionend", function(err) {
 		 console.log("Someone is braking into your room! Go CHECK! Go! Go!!! WARNING!!!");
+    //  fire mplayer immediately when the motion has been triggered
+     player.play('./media/motionTrigAlarmSound.mp3', (err) => {
+         if (err) console.log(`Could not play sound: ${err}`);
+     });
+
       StartLedMode.strobe(2000);
       //Below is call Me When led is done blinking using twilio
       client.calls.create({
@@ -69,7 +75,7 @@
         if(err){
         console.log(err)
         process.stdout.write(call.sid);
-      }
+        }
       }
     );
      		// servo.sweep()
