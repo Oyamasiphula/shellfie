@@ -9,11 +9,11 @@
     "express": "^4.16.2",
     "express-handlebars": "^3.0.0",
     "gulp": "^3.9.1",
-    "handlebars": "^4.0.11",
     "http": "^0.0.0",
     "johnny-five": "^0.13.0",
     "nodemailer": "^4.4.2",
     "nodemon": "^1.14.12",
+    "play-sound": "^1.1.2",
     "serialport": "^6.0.4",
     "socket.io": "^2.0.4",
     "twilio": "^3.11.2"
